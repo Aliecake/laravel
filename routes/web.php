@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'AppController@index');
 
 Route::get('/tracks', function() {
     return view('tracks');
