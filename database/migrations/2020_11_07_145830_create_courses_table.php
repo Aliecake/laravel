@@ -19,8 +19,8 @@ class CreateCoursesTable extends Migration
             $table->longText('summary');
             $table->integer('duration');
             $table->string('language');
-            $tab;e->string('difficulty');
-            $tab;e->integer('stages');
+            $table->string('difficulty');
+            $table->integer('stages');
             $table->timestamps();
         });
     }
