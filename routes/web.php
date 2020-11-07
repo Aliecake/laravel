@@ -24,3 +24,7 @@ Route::get('/community', function() {
 Route::get('/support', function() {
     return view('support');
 });
+
+Route::get('/library', function() {
+    return view('library');
+});
